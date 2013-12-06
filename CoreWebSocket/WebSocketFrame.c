@@ -448,7 +448,7 @@ CFStringRef
 WebSocketFrameCopyPayloadString (WebSocketFrameRef self, CFStringEncoding encoding) {
     CFStringRef result = NULL;
     if_self_and (self->state == kWebSocketFrameStateReady) {
-        result = WebSocketFrameCopyPayloadStringWithRange(self, CFRangeMake(0, self->payloadLength), encoding);
+        result = WebSocketFrameCopyPayloadStringWithRange(self, CFRangeMake(0, (CFIndex)self->payloadLength), encoding);
     }
     return result;
 }
