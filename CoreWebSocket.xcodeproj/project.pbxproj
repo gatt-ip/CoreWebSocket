@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		710FBF5D18702D8300F79E02 /* WebSocketFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = EB93B6E316C195840004C53A /* WebSocketFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9194067A171F23B0009B64F8 /* WebSocketFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = EB93B6E316C195840004C53A /* WebSocketFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB131D7D1327F5C900C8F095 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB131D7B1327F5C900C8F095 /* InfoPlist.strings */; };
 		EB131D8D1327F63700C8F095 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB60778B1324E7FB00D98B17 /* CoreFoundation.framework */; };
@@ -19,19 +20,19 @@
 		EB8414141375A255002BF1E4 /* cuEnc64.c in Sources */ = {isa = PBXBuildFile; fileRef = EB84140C1375A255002BF1E4 /* cuEnc64.c */; };
 		EB8414151375A255002BF1E4 /* cuEnc64.c in Sources */ = {isa = PBXBuildFile; fileRef = EB84140C1375A255002BF1E4 /* cuEnc64.c */; };
 		EB8414161375A255002BF1E4 /* cuEnc64.h in Headers */ = {isa = PBXBuildFile; fileRef = EB84140D1375A255002BF1E4 /* cuEnc64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB8414171375A255002BF1E4 /* cuEnc64.h in Headers */ = {isa = PBXBuildFile; fileRef = EB84140D1375A255002BF1E4 /* cuEnc64.h */; };
+		EB8414171375A255002BF1E4 /* cuEnc64.h in Headers */ = {isa = PBXBuildFile; fileRef = EB84140D1375A255002BF1E4 /* cuEnc64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB8414181375A255002BF1E4 /* WebSocket.c in Sources */ = {isa = PBXBuildFile; fileRef = EB84140E1375A255002BF1E4 /* WebSocket.c */; };
 		EB8414191375A255002BF1E4 /* WebSocket.c in Sources */ = {isa = PBXBuildFile; fileRef = EB84140E1375A255002BF1E4 /* WebSocket.c */; };
 		EB84141A1375A255002BF1E4 /* WebSocket.c in Sources */ = {isa = PBXBuildFile; fileRef = EB84140E1375A255002BF1E4 /* WebSocket.c */; };
 		EB84141B1375A255002BF1E4 /* WebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = EB84140F1375A255002BF1E4 /* WebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB84141C1375A255002BF1E4 /* WebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = EB84140F1375A255002BF1E4 /* WebSocket.h */; };
+		EB84141C1375A255002BF1E4 /* WebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = EB84140F1375A255002BF1E4 /* WebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB84141D1375A255002BF1E4 /* WebSocketClient.c in Sources */ = {isa = PBXBuildFile; fileRef = EB8414101375A255002BF1E4 /* WebSocketClient.c */; };
 		EB84141E1375A255002BF1E4 /* WebSocketClient.c in Sources */ = {isa = PBXBuildFile; fileRef = EB8414101375A255002BF1E4 /* WebSocketClient.c */; };
 		EB84141F1375A255002BF1E4 /* WebSocketClient.c in Sources */ = {isa = PBXBuildFile; fileRef = EB8414101375A255002BF1E4 /* WebSocketClient.c */; };
 		EB8414201375A255002BF1E4 /* WebSocketClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8414111375A255002BF1E4 /* WebSocketClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB8414211375A255002BF1E4 /* WebSocketClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8414111375A255002BF1E4 /* WebSocketClient.h */; };
+		EB8414211375A255002BF1E4 /* WebSocketClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8414111375A255002BF1E4 /* WebSocketClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB8414221375A255002BF1E4 /* WebSocketTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8414121375A255002BF1E4 /* WebSocketTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB8414231375A255002BF1E4 /* WebSocketTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8414121375A255002BF1E4 /* WebSocketTypes.h */; };
+		EB8414231375A255002BF1E4 /* WebSocketTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8414121375A255002BF1E4 /* WebSocketTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB93B6E516C19F780004C53A /* WebSocketFrame.c in Sources */ = {isa = PBXBuildFile; fileRef = EB93B6E416C19F780004C53A /* WebSocketFrame.c */; };
 		EB93B6E616C19F780004C53A /* WebSocketFrame.c in Sources */ = {isa = PBXBuildFile; fileRef = EB93B6E416C19F780004C53A /* WebSocketFrame.c */; };
 		EB93B6E716C19F780004C53A /* WebSocketFrame.c in Sources */ = {isa = PBXBuildFile; fileRef = EB93B6E416C19F780004C53A /* WebSocketFrame.c */; };
@@ -39,7 +40,7 @@
 		EBB035A51327F711005EF338 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB035A41327F711005EF338 /* CFNetwork.framework */; };
 		EBF1E9B71375A2F1009F3C50 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF1E9B61375A2F1009F3C50 /* main.c */; };
 		EBF1E9B91375A334009F3C50 /* CoreWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF1E9B81375A334009F3C50 /* CoreWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBF1E9BA1375A334009F3C50 /* CoreWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF1E9B81375A334009F3C50 /* CoreWebSocket.h */; };
+		EBF1E9BA1375A334009F3C50 /* CoreWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF1E9B81375A334009F3C50 /* CoreWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -72,7 +73,7 @@
 		EB8414121375A255002BF1E4 /* WebSocketTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocketTypes.h; sourceTree = "<group>"; };
 		EB93B6E316C195840004C53A /* WebSocketFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebSocketFrame.h; sourceTree = "<group>"; };
 		EB93B6E416C19F780004C53A /* WebSocketFrame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WebSocketFrame.c; sourceTree = "<group>"; };
-		EBB035981327F6FA005EF338 /* libCoreWebSocket_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCoreWebSocket_iOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB035981327F6FA005EF338 /* libCoreWebSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCoreWebSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB035A21327F70B005EF338 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		EBB035A41327F711005EF338 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		EBF1E9B61375A2F1009F3C50 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = CoreWebSocket/main.c; sourceTree = "<group>"; };
@@ -174,7 +175,7 @@
 			children = (
 				EB6077871324E7FB00D98B17 /* CoreWebSocketConsole */,
 				EB131D711327F5C900C8F095 /* CoreWebSocket.framework */,
-				EBB035981327F6FA005EF338 /* libCoreWebSocket_iOS.a */,
+				EBB035981327F6FA005EF338 /* libCoreWebSocket.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -217,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB8414171375A255002BF1E4 /* cuEnc64.h in Headers */,
+				710FBF5D18702D8300F79E02 /* WebSocketFrame.h in Headers */,
 				EB84141C1375A255002BF1E4 /* WebSocket.h in Headers */,
 				EB8414211375A255002BF1E4 /* WebSocketClient.h in Headers */,
 				EB8414231375A255002BF1E4 /* WebSocketTypes.h in Headers */,
@@ -276,7 +278,7 @@
 			);
 			name = CoreWebSocket_iOS;
 			productName = CoreWebSocket_iOS;
-			productReference = EBB035981327F6FA005EF338 /* libCoreWebSocket_iOS.a */;
+			productReference = EBB035981327F6FA005EF338 /* libCoreWebSocket.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -425,10 +427,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/\"";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -449,9 +452,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/\"";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
@@ -480,30 +484,33 @@
 		EBB0359E1327F6FA005EF338 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = /tmp/CoreWebSocket_iOS.dst;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CoreWebSocket/CoreWebSocket-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				GCC_PREFIX_HEADER = "";
+				GCC_VERSION = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PRODUCT_NAME)";
+				SDKROOT = iphoneos7.0;
 			};
 			name = Debug;
 		};
 		EBB0359F1327F6FA005EF338 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = /tmp/CoreWebSocket_iOS.dst;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CoreWebSocket/CoreWebSocket-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				GCC_PREFIX_HEADER = "";
+				GCC_VERSION = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PRODUCT_NAME)";
+				SDKROOT = iphoneos7.0;
 			};
 			name = Release;
 		};
