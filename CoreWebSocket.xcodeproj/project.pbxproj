@@ -287,7 +287,7 @@
 		EB60777E1324E7FB00D98B17 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Inteliv Ltd";
 			};
 			buildConfigurationList = EB6077811324E7FB00D98B17 /* Build configuration list for PBXProject "CoreWebSocket" */;
@@ -384,6 +384,7 @@
 				GCC_PREFIX_HEADER = "CoreWebSocket/CoreWebSocket-Prefix.pch";
 				INFOPLIST_FILE = "CoreWebSocket/CoreWebSocket-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -403,6 +404,7 @@
 				GCC_PREFIX_HEADER = "CoreWebSocket/CoreWebSocket-Prefix.pch";
 				INFOPLIST_FILE = "CoreWebSocket/CoreWebSocket-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -431,6 +433,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
@@ -455,6 +458,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
@@ -467,6 +471,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -478,6 +483,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -485,7 +491,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				GCC_VERSION = "";
@@ -494,7 +499,9 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PRODUCT_NAME)";
-				SDKROOT = iphoneos7.0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -502,7 +509,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				GCC_VERSION = "";
@@ -510,7 +516,9 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PRODUCT_NAME)";
-				SDKROOT = iphoneos7.0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};

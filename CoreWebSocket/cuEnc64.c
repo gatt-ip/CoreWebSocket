@@ -33,6 +33,10 @@ unsigned char bintoasc[] =
  * Map an 7-bit printable character to its corresponding binary value.
  * Any illegal characters return high bit set.
  */
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunused-variable"
+
 static const
 unsigned char asctobin[] =
 {
@@ -53,6 +57,8 @@ unsigned char asctobin[] =
     0x29, 0x2a, 0x2b, 0x2c, 0x2d, 0x2e, 0x2f, 0x30,
     0x31, 0x32, 0x33, 0x80, 0x80, 0x80, 0x80, 0x80
 };
+
+#pragma clang diagnostic pop
 
 /*
  * map 6 bits to a printing char
